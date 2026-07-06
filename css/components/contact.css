@@ -1,12 +1,17 @@
 .contacto {
-  padding: 160px 0;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 0 96px;
   background: var(--dark-mid);
 }
+
+.contacto .container { width: 100%; }
 
 /* Encabezado centrado */
 .contacto__header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .contacto__header .section-title {
@@ -22,9 +27,9 @@
   background: var(--dark-card);
   border: 1px solid rgba(201,168,76,0.12);
   border-radius: var(--radius);
-  padding: 56px 64px;
+  padding: 40px 64px;
   max-width: 900px;
-  margin: 0 auto 72px;
+  margin: 0 auto 40px;
 }
 
 /* Fila de 2 campos lado a lado */
