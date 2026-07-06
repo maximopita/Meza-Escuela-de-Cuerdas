@@ -2,6 +2,10 @@
 
 html { scroll-behavior: smooth; }
 
+#propuesta, #experiencia, #testimonios, #contacto {
+  scroll-margin-top: 72px;
+}
+
 body {
   font-family: var(--font-body);
   background: var(--dark);
