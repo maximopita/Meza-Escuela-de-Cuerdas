@@ -1,0 +1,118 @@
+.contacto {
+  padding: 160px 0;
+  background: var(--dark-mid);
+}
+
+/* Encabezado centrado */
+.contacto__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contacto__header .section-title {
+  color: var(--gold);
+}
+
+.contacto__header .section-sub {
+  margin-bottom: 0;
+}
+
+/* Formulario centrado */
+.contacto__form {
+  background: var(--dark-card);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: var(--radius);
+  padding: 56px 64px;
+  max-width: 900px;
+  margin: 0 auto 72px;
+}
+
+/* Fila de 2 campos lado a lado */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--dark-mid);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 8px;
+  padding: 16px 18px;
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color var(--transition);
+  width: 100%;
+  resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: var(--text-dim); }
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--gold);
+}
+
+.form-group select option { background: var(--dark-mid); }
+
+/* Datos de contacto en fila abajo */
+.contacto__datos {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.contacto__dato {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.dato__icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(201,168,76,0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.contacto__dato strong {
+  display: block;
+  color: var(--white);
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.contacto__dato a,
+.contacto__dato span {
+  font-size: 1rem;
+  color: var(--text-dim);
+  transition: color var(--transition);
+}
+.contacto__dato a:hover { color: var(--gold); }

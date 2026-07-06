@@ -1,0 +1,19 @@
+:root {
+  --cream:    #e8edf5;
+  --gold:     #c9a84c;
+  --gold-lt:  #e6c97a;
+  --dark:     #0b1120;
+  --dark-mid: #101a30;
+  --dark-card:#162040;
+  --text:     #bdc8dd;
+  --text-dim: #6b7a96;
+  --white:    #ffffff;
+  --green:    #25d366;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  --max-w: 1160px;
+  --radius: 12px;
+  --transition: 0.25s ease;
+}
